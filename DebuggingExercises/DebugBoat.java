@@ -1,8 +1,8 @@
 public abstract class DebugBoat
 {
-   String boatType = new String();
+   String boatType;
    int passengers;
-   String power = new String();
+   String power;
    public DebugBoat(String bt)
    {
       boatType = bt;
