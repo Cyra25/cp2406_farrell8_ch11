@@ -1,4 +1,6 @@
-public class Pancake implements Turner{
+package ex09;
+
+public class Pancake implements Turner {
     public void turn(){
         System.out.println("Flipping");
     }

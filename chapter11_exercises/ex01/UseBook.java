@@ -1,3 +1,8 @@
+package ex01;
+
+import ex01.Book;
+import ex01.NonFiction;
+
 public class UseBook {
     public static void main(String[] args){
         Fiction fiction = new Fiction("Harry Potter");

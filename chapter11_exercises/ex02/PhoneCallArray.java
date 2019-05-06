@@ -1,3 +1,9 @@
+package ex02;
+
+import ex02.IncomingPhoneCall;
+import ex02.OutgoingPhoneCall;
+import ex02.PhoneCall;
+
 public class PhoneCallArray {
     public static void main(String[] args){
         PhoneCall[] phoneCalls = new PhoneCall[10];

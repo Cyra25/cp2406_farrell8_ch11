@@ -1,3 +1,8 @@
+package ex08;
+
+import ex08.GraduateStudent;
+import ex08.StudentAtLarge;
+
 public class StudentDemo {
     public static void main(String[] args){
         Student[] students = new Student[6];
@@ -8,9 +13,9 @@ public class StudentDemo {
         students[4] = new UndergraduateStudent(5555, "Five");
         students[5] = new StudentAtLarge(6666, "Six");
         for (int x = 0; x<students.length; ++x){
-            System.out.println("Student ID number - "+students[x].getIdNum()+
-                    "\n"+"Student Last Name - "+ students[x].getLastName() +
-                    "\n"+"Student tuition fee - "+students[x].getTuition());
+            System.out.println("ex08.Student ID number - "+students[x].getIdNum()+
+                    "\n"+"ex08.Student Last Name - "+ students[x].getLastName() +
+                    "\n"+"ex08.Student tuition fee - "+students[x].getTuition());
         }
     }
 }

@@ -1,3 +1,5 @@
+package ex02;
+
 public class DemoPhoneCalls {
     public static void main(String[] args){
         IncomingPhoneCall incomingPhoneCall = new IncomingPhoneCall("1234");

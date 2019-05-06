@@ -1,3 +1,5 @@
+package ex08;
+
 public class GraduateStudent extends Student {
 
     public GraduateStudent(int idNum, String lastName){

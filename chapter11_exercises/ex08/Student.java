@@ -1,3 +1,5 @@
+package ex08;
+
 public abstract class Student {
     int idNum;
     String lastName;

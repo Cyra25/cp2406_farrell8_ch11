@@ -1,3 +1,5 @@
+package ex02;
+
 public abstract class PhoneCall {
     String phoneNum;
     double price;

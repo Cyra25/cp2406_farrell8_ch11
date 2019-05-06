@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+package ex01;
 
 public class BookArray{
     public static void main(String[] args){

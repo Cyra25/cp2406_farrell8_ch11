@@ -1,4 +1,6 @@
-public class UndergraduateStudent extends Student{
+package ex08;
+
+public class UndergraduateStudent extends Student {
 
     public UndergraduateStudent(int idNum, String lastName){
         super(idNum, lastName);

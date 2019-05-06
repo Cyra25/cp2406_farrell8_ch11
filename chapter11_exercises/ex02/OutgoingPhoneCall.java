@@ -1,3 +1,5 @@
+package ex02;
+
 public class OutgoingPhoneCall extends PhoneCall {
     double RATE_PER_MINUTE = 0.04;
     int timeInMinutes;

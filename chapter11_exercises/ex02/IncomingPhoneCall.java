@@ -1,3 +1,5 @@
+package ex02;
+
 public class IncomingPhoneCall extends PhoneCall {
     double RATE = 0.02;
     public IncomingPhoneCall(String phoneNum){

@@ -1,3 +1,5 @@
+package ex01;
+
 public abstract class Book {
     String title;
     double price;
